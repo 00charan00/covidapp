@@ -1,0 +1,122 @@
+.addcenter {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    position: relative;
+
+    .add {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: calc(100vh - 40px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        align-items: center;
+        justify-content: center;
+
+        z-index: 2;
+
+        .cd {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding: 20px;
+            justify-content: center;
+            /* align-items: center; */
+            gap: 10px;
+            background-color: #ffffff; /* Background color for the card */
+            border-radius: 10px; /* Added border radius */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Added box shadow */
+
+            .close {
+                color: white;
+                background-color: rgb(220, 53, 69); /* Changed close button background color */
+                position: absolute;
+                top: 10px; /* Adjusted position */
+                right: 10px; /* Adjusted position */
+                padding: 5px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            .btn {
+                width: fit-content;
+                display: flex;
+                position: absolute;
+                justify-content: center;
+                top: 280px;
+                left: 47.5%;
+            }
+
+            .card {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 20px;
+                padding: 40px;
+
+                .lab {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px;
+
+        .display {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            .button {
+                display: flex;
+                justify-content: space-between;
+                right: 0;
+            }
+
+            .table {
+                /* Add this to your CSS file or use a CSS-in-JS solution */
+
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-top: 20px;
+
+                    td {
+                        border: 2px solid red;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        border: 2px solid red;
+                        padding: 8px;
+                        text-align: left;
+                        color: white; /* Changed text color */
+                        background-color: red; /* Changed background color */
+                    }
+
+                    tbody tr:nth-child(even) {
+                        background-color: rgba(150, 246, 214, 0.5); /* Changed even row background color with transparency */
+                    }
+
+                    tbody tr:nth-child(odd) {
+                        background-color: rgba(255, 255, 255, 0.5); /* Changed odd row background color with transparency */
+                    }
+                }
+            }
+        }
+    }
+}

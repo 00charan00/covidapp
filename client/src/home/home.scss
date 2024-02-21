@@ -1,0 +1,23 @@
+.home {
+  position: relative;
+  z-index: 1;
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  text-align: center; /* Center align the content */
+  background-image: url("../assets/OIP.jpeg"); /* Replace 'path_to_your_background_image' with the actual path to your image */
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fix the background image to the viewport */
+  color: #fff; /* Set text color to white */
+  height: 89.2vh; /* Set height to full viewport height */
+  display: flex; /* Use flexbox to center content vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  overflow: hidden; /* Hide overflow */
+}
+
+h1 {
+  font-size: 48px; /* Set font size to 48px */
+  margin: 0; /* Remove margin */
+  padding: 20px; /* Add padding to create space for content */
+}

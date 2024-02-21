@@ -1,0 +1,32 @@
+.bookslot {
+    //background-image: url("../assets/OIP (2).jpeg");
+    height: 80vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card {
+    width: calc(50% - 50px); /* Adjust the width of the cards as needed */
+    background-color: white; /* Set the desired background color */
+    padding: 20px;
+    box-shadow:black;
+    margin-bottom: 50px; /* Add some space between cards */
+}
+
+.right .slots .top .con {
+    width: 100%;
+}
+
+/* Additional styling for select input if needed */
+.select {
+    width: 100%;
+}
